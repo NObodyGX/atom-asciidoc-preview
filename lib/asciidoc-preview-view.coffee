@@ -255,10 +255,6 @@ class AsciiDocPreviewView extends ScrollView
       .then (htmlContent) ->
         fs.writeFileSync htmlFilePath, htmlContent
       .then ->
-        if atom.config.get 'asciidoc-preview.saveAsHtml.openInEditor'
-          atom.workspace.open htmlFilePath
-
-        if atom.config.get 'asciidoc-preview.saveAsHtml.openInBrowser'
-          opn(htmlFilePath).catch (error) ->
+          open(htmlFilePath).catch (error) ->
             atom.notifications.addError error.toString(), detail: error?.stack or '', dismissable: true
             console.error error

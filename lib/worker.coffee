@@ -39,7 +39,6 @@ module.exports = (text, attributes, options) ->
       emit 'asciidoctor-load:success', blockPositions: blockPositions
 
     html = doc.convert()
-    console.log html
     stdStream.restore()
     emit 'asciidoctor-render:success', html: html
   catch error
