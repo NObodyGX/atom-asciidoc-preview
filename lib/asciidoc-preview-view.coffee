@@ -238,7 +238,7 @@ class AsciiDocPreviewView extends ScrollView
       atom.notifications.addWarning('Please wait until the Asciidoctor Preview has finished loading before saving')
       return
 
-    packPath = atom.packages.resolvePackagePath 'asciidoc-preview'
+    packPath = atom.packages.resolvePackagePath 'atom-asciidoc-preview'
     templatePath = path.join packPath, 'templates', 'default.html'
 
     @getAsciiDocSource()
