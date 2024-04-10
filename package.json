@@ -1,5 +1,5 @@
 {
-  "name": "atom-asciidoc-preview",
+  "name": "asciidoc-preview",
   "main": "./lib/main",
   "version": "1.0.3",
   "description": "preview asciidoc package by NObodyGX",
