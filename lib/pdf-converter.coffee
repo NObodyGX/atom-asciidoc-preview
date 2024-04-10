@@ -1,5 +1,5 @@
 path = require 'path'
-opn = require 'opn'
+open = require 'open'
 fs = require 'fs'
 
 module.exports =
@@ -26,7 +26,7 @@ convertToPdf = (sourceFilePath) ->
         atom.notifications.addSuccess 'Export as PDF completed!', detail: pdfFilePath or '', dismissable: false
 
         if atom.config.get 'asciidoc-preview.exportAsPdf.openWithExternal'
-          opn(pdfFilePath).catch (error) ->
+          open(pdfFilePath).catch (error) ->
             atom.notifications.addError error.toString(), detail: error?.stack or '', dismissable: true
             console.error error
         cleanAsciiDoctorPdf sourceFilePath

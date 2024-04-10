@@ -4,7 +4,7 @@ path = require 'path'
 fs = require 'fs-plus'
 _ = require 'underscore-plus'
 mustache = require 'mustache'
-opn = require 'opn'
+open = require 'open'
 renderer = require './renderer'
 pdfconverter = require './pdf-converter'
 
