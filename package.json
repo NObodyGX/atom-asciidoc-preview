@@ -3,7 +3,7 @@
   "main": "./lib/main",
   "version": "1.0.3",
   "description": "preview asciidoc package by NObodyGX",
-  "repository": "https://github.com/asciidoctor/atom-asciidoc-preview",
+  "repository": "https://github.com/nobodygx/atom-asciidoc-preview",
   "license": "MIT",
   "keywords": [
     "asciidoc",
