@@ -26,9 +26,7 @@
     "opn": "^4.0.2",
     "underscore-plus": "~1.6.6"
   },
-  "devDependencies": {
-    "coffeelint": "^1.15.0"
-  },
+  "devDependencies": {},
   "deserializers": {
     "AsciiDocPreviewView": "createAsciiDocPreviewView"
   },
