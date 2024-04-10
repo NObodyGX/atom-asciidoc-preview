@@ -13,9 +13,9 @@ I will continue to maintain this repository according to my own needs. If you ha
 git clone ${REPO} ~/.atom/packages/
 
 # 2. install package
-cd ~/.atom/packages/ && npm i
+cd ~/.atom/packages/atom-asciidoc-preview && npm i
 
-# 3. open atom and enjoy
+# 3. open atom and enjoy!!!
 ```
 
 ## changlog
