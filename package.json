@@ -17,7 +17,7 @@
     "atom": ">=1.24.0 <2.0.0"
   },
   "dependencies": {
-    "@asciidoctor/core": "~2.2.7",
+    "@asciidoctor/core": "~2.2.6",
     "atom-space-pen-views": "~2.2.0",
     "cheerio": "~1.0.0-rc.12",
     "font-awesome": "^4.7.0",
